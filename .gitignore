@@ -1,0 +1,32 @@
+# Ignore the virtual environment
+.venv/
+
+# Ignore Python cache files
+*.pyc
+__pycache__/
+
+# Ignore Django secret key
+*.env
+
+# Ignore database files
+*.sqlite3
+
+# Ignore VSCode settings (optional)
+.vscode/
+
+# Ignore compiled code
+*.pyo
+*.pyd
+
+# Ignore media and static files (if stored locally)
+media/
+staticfiles/
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+
+# ignore text
+django_command_line.txt
+django_tutorial.txt
