@@ -7,6 +7,6 @@ urlpatterns = [
     path(
         route = 'register/', 
         view = views.register_view, 
-        name = 'user'
+        name = 'register'
     ),
 ]
